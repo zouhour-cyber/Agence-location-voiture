@@ -1,7 +1,6 @@
 header{ width:100%;
   position: fixed;}
 .bandeau{
-  margin-top:0px;
   background-color:white;
   height:40px;
   width:100%;
@@ -9,27 +8,22 @@ header{ width:100%;
   justify-content: space-between;
   flex-direction: row-reverse;
 }
-.band a{ padding-left:20px;
-text-decoration:none;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
- margin-top:0px;
+.band { padding-left:20px;
+  margin-right:60px;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
  font-size: 15px;
  color:black;
  font-weight:bold; 
 
 }
-#langueflag{
-width: 30px;
-margin-right: 20px;
-border-radius: 60px; 
-}
+.band a{text-decoration:none;}
+
 .logo{ top:0px;
   color: black;
   margin-left: 20px;
   text-align: left;
   font-weight: bold;  
   font-style: italic;
-
   
 }
 h1{font-size: 20px;
@@ -45,7 +39,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
 
 .navbar a {
   
-       margin: 20px 20px;
+        margin: 20px 20px;
         float: left;
         display: block;
         color:black;
@@ -60,72 +54,68 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
   color:rgb(223, 163, 12);
   
   }
-    #Réserver1{ color:rgb(185, 29, 159);
+    #Réserver1{ color:rgb(185, 33, 33);
     font-weight:bold;
-   font-size: 25px;
-   font-family:cursive;}
-    .réservation{
-      width:600px;
-      top:100px;
+   font-size: 40px;
+   font-family:cursive;
+  }
+    .réservationform{
+      height:200px;
+      width:500px;
+      top:30px;
       left:70px;
       z-index: 1;
       position:absolute;
     }
       select, input[type=text],input[type=email], input[type=tel]{
-        width: 80vh;
+        width: 70vh;
         padding: 12px 20px;
         margin: 8px 10px;
         display: inline-block;
-        border: 1px solid #ccc;
+       
+      }
+
+      input [type=date] {
+        width:70vh;
+        font-size:10px;
+        padding: 12px 20px;
+        margin: 8px 10px;
         border-radius: 4px;
-        box-sizing: border-box;
+        display:inline-block;
       }
       
-      #Réservation{
-        margin-top:10px;
+      .Réservation{
+        margin:10px;
         margin-left:200px;
-        width: 30vh;
-        background-color:rgb(185, 29, 159);
-        color:rgb(25, 5, 51);
+        width: 50vh;
+        background-color:rgb(185, 33, 33);
+        color:black;
         font-weight:bold;
-        font-size:15px;
+        font-size:20px;
         padding: 20px;
         border: none;
         border-radius: 4px;
         cursor: pointer;}
 
-      #Réserver{
-      margin-left:30px;
-      background-color:rgb(67, 161, 114);
-    }
+       .containerform{padding:20px;}
+       
 
-
-        input [type=date] {
-        width:50vh;
-        font-size:15px;
-        padding: 20px;
-        border: none;
-        border-radius: 4px;
-
-        }
+    
         label{
+         
           padding-bottom:10px;
           font-weight:bold;
-          font-size:15px;
+          font-size:17px;
           color:rgb(8, 72, 83);}
 
-    .containerform{
-      padding:20px;
-      border-style:ridge; 
-      color:rgb(67, 161, 114);
-    }
+    
     #img3{
       width:100%;
       z-index:2;
     }
    
      .section2{
-      margin-top:20px;
+      margin-top:40px;
       height:400px;
     }
     
@@ -139,38 +129,57 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
     padding-top:20px;
   }
   h4{ 
-    color:rgb(185, 29, 159);
-    padding-left:25px;
+    color:rgb(197, 44, 17);
+    padding-left:15px;
     font-family:cursive;
-    font-size: 20px;
+    font-size: 30px;
 }
-  p{font-family: Verdana, Geneva, Tahoma, sans-serif;
+  p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding:40px;}
+
     .pics1{
       display:flex;
-    justify-content: space-between;
-  }
+     justify-content: space-between;
+     }
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  width:40%;
+  width:30%;
   transition: 0.3s;
 }
 
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 5px 0 rgba(0,0,0,0.2);
 }
 
 .container {
-  padding: 2px 16px;
-}
-.validation{
-  margin-top:100vh;
-  margin-left:50px;
+  padding: 2px 5px;
 }
 
-footer{background-color: rgb(74, 193, 197);
+.validation{
+  margin-top:100px;
+  margin-left:50vh;
 }
+#Réserver{
   
+  background-color:rgb(185, 33, 33);
+  padding:20px;
+  width:100%;
+}
+.voir{ 
+ position:center; 
+ width:60px;
+ text-align:center;
+ margin-right:100vh;
+ padding: 10px 12px;
+ background-color: rgb(185, 33, 33);
+ font-size:20px;}
+
+footer{
+  background-color: rgb(199, 197, 197);
+}
+
+h5{margin-top:40vh;}
 
      
